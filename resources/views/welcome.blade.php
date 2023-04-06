@@ -11,7 +11,11 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+        <link
+        href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
+        rel="stylesheet"/>
 
+      <link rel="stylesheet" href="resources/css/app.css">
     </head>
     <body class="antialiased">
         @if (Route::has('login'))
@@ -41,13 +45,12 @@
                   <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                     <span class="relative inline-block">
 
-                      <span class="relative">The</span>
                     </span>
-                    quick, brown fox jumps over a lazy dog
-                  </h2>
+                        Únete a nuestra creciente red de negocios pet friendly y conviértete en un destino popular para los amantes de los animales
+                 </h2>
                   <p class="text-base text-gray-700 md:text-lg">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
-                  </p>
+                    Haz que tu negocio destaque y atraiga a más clientes registrándote como pet friendly ahora mismo
+                </p>
                 </div>
                 <div>
                   <a
@@ -64,7 +67,7 @@
 
           <div class="grid-cols-12 grid">
             <div class="col-span-12  p-4 lg:col-span-7 lg:p-20">
-             <h2>ase</h2>
+             <h2 class="text-center mt-6 md:mt-36 px-4 md:px-12 py-6 font-bold text-2xl">Aumenta tus ventas y mejora la lealtad de tus clientes registrándote como un negocio pet friendly hoy mismo</h2>
 
 
             </div>
